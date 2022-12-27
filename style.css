@@ -1,0 +1,23 @@
+.big {
+    height: 300px;
+    border: 2px solid black;
+    display: flex; 
+}
+
+.small{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background: purple;
+
+}
+
+@media (max-width: 600px){
+    .big{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .small{
+        background: red;
+    }
+}
